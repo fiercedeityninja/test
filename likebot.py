@@ -25,7 +25,7 @@ while(True):
     likeBot()
     x=60
     while x > 0:
-        print("Sleeping: %s"%x)
+        print("%s"%x)
         x-=1
         time.sleep(1)
         os.system("clear")
